@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Contract AI Project"
+version = "0.1.0"
+description = "AI Contract Management"
+authors = [
+    { name = "Aj Arawwawala", email = "aj.arawwawala@paconsulting.com" }
+]
+dependencies = [
+    "numpy>=1.26.4",
+    "pandas>=2.2.0"
+]

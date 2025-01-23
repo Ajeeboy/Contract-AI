@@ -1,0 +1,11 @@
+# Backend
+azure-storage-blob
+langchain
+openai
+langchain_openai
+azure-identity
+langchain-community
+pypdf
+azure-search-documents
+azure-core
+langchain-text-splitters

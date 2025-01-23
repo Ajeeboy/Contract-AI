@@ -1,0 +1,16 @@
+# Frontend
+streamlit==1.36.0
+pandas==2.2.0
+xlsxwriter==3.2.0
+
+# Backend
+azure-storage-blob==12.20.0
+langchain==0.2.0
+openai==1.32.0
+langchain-openai==0.1.8
+azure-identity==1.16.0
+langchain-community==0.2.0
+pypdf==4.0.0
+azure-search-documents==11.4.0
+azure-core==1.30.0
+langchain-text-splitters==0.2.0
