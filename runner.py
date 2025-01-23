@@ -23,7 +23,7 @@ print(setup_result.stdout)
 # Execute runner
 try:
     print(f"\nWebapp starting...")
-    webapp_process = subprocess.Popen(runtime_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    webapp_process = subprocess.Popen(runtime_command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, creationflags=subprocess.DETACHED_PROCESS)
     thread = threading.Thread(target=print_webapp_output, args=(webapp_process,))
     thread.start()
     thread.join()
