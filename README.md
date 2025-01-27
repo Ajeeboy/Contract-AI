@@ -17,7 +17,7 @@ Contract AI's webapp front-end
 
 2.  Runtime process
     Simply hit the play button on the "app-start.py" script or run the the following in your pwsh terminal:
-        python app-start.py
+        python runner.py
     To manually start the app for testing purposes run the following in your pwsh terminal:
         streamlit run filename.py
     In order to manually start the app, it may be required to initialise your venv, which can be achieved by running the following in your pswh terminal:
